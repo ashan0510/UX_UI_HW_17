@@ -7,18 +7,24 @@ ul {
     background-color: #ffb0b0
 }
 
-li {
-    float: right;
-}
+
 
 li a {
+    float: right;
     display: block;
     color: black;
     text-align: center;
     padding: 16px;
     text-decoration: none;
+    width: auto;
 }
 
 .categories {
     display: flex;
+}
+
+.logo {
+    /*align-items: center;*/
+    padding-top: 20px;
+    width: 100px;
 }
